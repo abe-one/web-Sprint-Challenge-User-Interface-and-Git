@@ -35,27 +35,38 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Semantic HTML is every HTML tag that gives meaning and context about what they are and what they're doing, both to devs and search engines. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    `block` elements can be given height and width properties while `inline` elements cannot.
+    `inline` elements run horizontally in the page flow and do not typically break line, by default `block` elements run vertically and break between elements.
 
 3. What are the 4 areas of the box model?
 
+    Content, padding, border, margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    Cross-axis
+
 5. Explain why git is valuable to a team of developers.
+
+    Using git, in addition to individual benefit, is useful to a team of developers because they can change code without overwriting each others code, and they can branch the development history to keep changes organized until merging.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push -u origin `<firstName-lastName>`.
+- [1] Create a forked copy of this project.
+- [1] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [1] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [1] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [1] Push commits: git push -u origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [1] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 
 
 
@@ -67,30 +78,30 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* [1] Build the HTML and CSS to create the missing navigation and header.
+* [1] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+* [1] box1: `teal`
+* [1] box2: `gold`
+* [1] box3: `cadetblue`
+* [1] box4: `coral`
+* [1] box5: `crimson`
+* [1] box6: `forestgreen`
+* [1] box7: `darkorchid`
+* [1] box8: `hotpink`
+* [1] box9: `indigo`
+* [1] box10: `dodgerblue`
 
 ### About Page
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
-* [ ] Copy and paste your home page navigation and header into the about page
-* [ ] Update the header image with the about page image
-* [ ] Link the `Home` navigation item back to the `index.html` page.
-* [ ] Build the rest of the about page layout to match the design
+* [1] Copy and paste your home page navigation and header into the about page
+* [1] Update the header image with the about page image
+* [1] Link the `Home` navigation item back to the `index.html` page.
+* [1] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
@@ -100,6 +111,6 @@ Note: Please make sure you are using flexbox to layout your website. Floats, inl
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-* [ ] refactor your HTML, make sure it's indented properly, clean, readable, you have written appropriate comments where necessary and that all attributes (required and encouraged) are filled out correctly.  
-* [ ] Ensure your CSS is organized and readable, you've seperated your code by section and that you are using descriptive class names and adding classes in your HTML where styles repeat rather than rewrting the same styles over again
-* [ ] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property 
+* [1] refactor your HTML, make sure it's indented properly, clean, readable, you have written appropriate comments where necessary and that all attributes (required and encouraged) are filled out correctly.  
+* [1] Ensure your CSS is organized and readable, you've separated your code by section and that you are using descriptive class names and adding classes in your HTML where styles repeat rather than rewriting the same styles over again
+* [1] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property 
