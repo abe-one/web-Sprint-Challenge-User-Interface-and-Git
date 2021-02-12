@@ -31,7 +31,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-    /* border: orangered solid 1px; */
+    border: orangered solid 1px;
 	font-size: 62.5%;
 	font: inherit;
 	vertical-align: baseline;
@@ -110,6 +110,8 @@ nav a{
 
 /* Content */
 
+/* .top-content */
+
 .img_container{
     height: 153px;
     width: 100%;
@@ -120,11 +122,9 @@ nav a{
     background-image: url(../img/jumbo.jpg);
 }
 
-.img_container.about_page{
+.about_page .top-content .img_container{
     background-image: url(../img/jumbo-about.png);
 }
-
-/* .top-content */
 
 .top-content {
     display: flex;
@@ -135,13 +135,12 @@ nav a{
 }
 
 .top-content .text-container{
-    /* width: 48%; */
-    padding: 0 1%;
-    padding-bottom: 20px;  
+    padding: 0 2% 20px;  
 }
 
-.top-content .text-container.halved{
+.text-container.halved{
     width: 48%;
+    padding: 0 1% 20px;
 }
 
 
@@ -172,6 +171,17 @@ nav a{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.content_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content_box .img_container{
+    width: 370px;
+    height: 236px;
 }
 
 .middle-content .boxes > .box:nth-child(1){
@@ -214,11 +224,27 @@ nav a{
 } 
 
 
-/* Selector brainstorming */
-
 /* .middle-content .boxes .box1{
     background-color: teal;
 } */
+
+
+/* about_page .middle-content */
+
+.about_page .middle-content .content_box{
+    width: 48%;
+}
+
+.about_page .middle-content .content_box .img_container{
+    height: 236px;
+    width: 370;
+}
+
+.about_page .middle-content .content_box.box1 .img_container{
+    background-image: url(../img/about-plan.png);
+}
+
+/* Selector brainstorming */
 
 /* .bottom-content */
 
