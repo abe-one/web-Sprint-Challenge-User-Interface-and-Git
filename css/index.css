@@ -1,3 +1,8 @@
+
+
+/* header missing space on right */
+/* font styling throughout */
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -25,8 +30,8 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	/* border: 0; */
-    border: orangered solid 1px;
+	border: 0;
+    /* border: orangered solid 1px; */
 	font-size: 62.5%;
 	font: inherit;
 	vertical-align: baseline;
@@ -87,7 +92,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 2rem auto;
+    margin: 1rem auto 2rem;
 }
 
 header nav{
@@ -100,6 +105,7 @@ header nav{
 
 nav a{
     text-decoration: none;
+    color: black;
 }
 
 /* Content */
@@ -107,8 +113,15 @@ nav a{
 .img_container{
     height: 153px;
     width: 100%;
-    background-image: url(../img/jumbo.jpg);
     margin-bottom: 1rem;
+}
+
+.img_container.index_page{
+    background-image: url(../img/jumbo.jpg);
+}
+
+.img_container.about_page{
+    background-image: url(../img/jumbo-about.png);
 }
 
 /* .top-content */
@@ -121,11 +134,16 @@ nav a{
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
-    width: 48%;
+.top-content .text-container{
+    /* width: 48%; */
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+.top-content .text-container.halved{
+    width: 48%;
+}
+
 
 /* .middle-content */
 
