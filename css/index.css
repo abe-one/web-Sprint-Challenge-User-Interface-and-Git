@@ -178,6 +178,7 @@ header nav{
     flex-direction: column;
     justify-content: space-between;
     border-bottom: black dashed 1px;
+    width: 48%;
 }
 
 .content_box .img_container{
@@ -243,19 +244,6 @@ header nav{
 /* .middle-content .boxes .box1{
     background-color: teal;
 } */
-
-
-/* about_page .middle-content */
-
-.about_page .middle-content .content_box{
-    width: 48%;
-}
-
-.about_page .middle-content .box1 .img_container{
-    background-image: url(../img/about-plan.png);
-}
-
-
 
 /* Selector brainstorming */
 
