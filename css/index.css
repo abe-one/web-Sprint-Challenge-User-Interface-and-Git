@@ -85,6 +85,11 @@ p {
     margin: 0 auto;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 
 /* Header */
 
@@ -103,10 +108,6 @@ header nav{
     align-items: flex-end;
 }
 
-nav a{
-    text-decoration: none;
-    color: black;
-}
 
 /* Content */
 
@@ -151,9 +152,8 @@ nav a{
     border-bottom: 1px dashed black;
 }
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+.middle-content .text-container{
+    margin-bottom: 1rem;
 }
 
 .middle-content .boxes {
@@ -177,11 +177,27 @@ nav a{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border-bottom: black dashed 1px;
 }
 
 .content_box .img_container{
     width: 370px;
     height: 236px;
+}
+
+.button{
+    border: black solid 2px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: fit-content;
+    margin-bottom: 1rem;
+}
+
+/* .index .middle-content */
+
+.index .middle-content h2 {
+    padding: 0 2%;
+    margin-bottom: 0;
 }
 
 .middle-content .boxes > .box:nth-child(1){
@@ -235,14 +251,11 @@ nav a{
     width: 48%;
 }
 
-.about_page .middle-content .content_box .img_container{
-    height: 236px;
-    width: 370;
-}
-
-.about_page .middle-content .content_box.box1 .img_container{
+.about_page .middle-content .box1 .img_container{
     background-image: url(../img/about-plan.png);
 }
+
+
 
 /* Selector brainstorming */
 
