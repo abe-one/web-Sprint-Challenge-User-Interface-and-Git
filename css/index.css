@@ -7,6 +7,7 @@
     padding: 0;
     margin: 0;
     max-width:100%;
+
 }
 
 html, body, div, span, applet, object, iframe,
@@ -24,7 +25,8 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
+    border: orangered solid 1px;
 	font-size: 62.5%;
 	font: inherit;
 	vertical-align: baseline;
@@ -33,24 +35,6 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
-}
-
-/* Header */
-
-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: flex-end;
-    margin: 2rem auto; ;
-    width: 800px;
-}
-
-header nav{
-    width: 75%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 body {
@@ -96,11 +80,44 @@ p {
     margin: 0 auto;
 }
 
+
+/* Header */
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem auto;
+}
+
+header nav{
+    width: 75%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+/* Content */
+
+.img_container{
+    height: 153px;
+    width: 100%;
+    background-image: url(../img/jumbo.jpg);
+    margin-bottom: 1rem;
+}
+
+/* .top-content */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
     border-bottom: 1px dashed black;
 }
 
@@ -109,6 +126,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/* .middle-content */
 
 .middle-content {
     margin-bottom: 20px;
@@ -136,6 +155,17 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+/* .middle-content .boxes > .box:nth-child(){
+    background-color: 
+} */ 
+/* Selector brainstorming */
+
+.middle-content .boxes .box1{
+    background-color: teal;
+}
+
+/* .bottom-content */
 
 .bottom-content {
     display: flex;
